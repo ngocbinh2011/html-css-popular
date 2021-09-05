@@ -1,1 +1,89 @@
+input[type="submit"], button{
+    cursor: pointer;
+}
 
+.login{
+    width: 28%;
+    height: 400px;
+    background-color: white;
+    /* text-align: center; */
+    border-radius: 10px;
+    /* display: block; */
+}
+
+.header-login{
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+}
+
+.header-login-title{
+    padding-top: 5px;
+    font-weight: 600;
+    color: #f8694d;
+}
+
+
+.block-item{
+    display: block;
+}
+
+.form-login{
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.username-label{
+    font-size: 18px;
+
+}
+
+.main-login{
+    /* text-align: center; */
+    /* padding-left: ; */
+}
+
+.login-lable-item{
+    padding-bottom: 5px;
+}
+
+.lable-password{
+    padding-top: 30px;
+}
+
+.login-input{
+    /* margin-right: 10px; */
+    width: 98%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.button-login{
+    width: 100px;
+    height: 30px;
+    background-color: #828282;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
+.button-login:hover{
+    background-color: #f8694d;
+}
+
+
+.div-button{
+    /* display: inline; */
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+
+}
+.div-button .sign-up-button{
+    /* position: relative; */
+    /* margin-right: 100px; */
+    /* padding-left: 80%; */
+}
